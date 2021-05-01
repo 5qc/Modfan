@@ -1,0 +1,177 @@
+:root {
+  --color-bg: #F6F6F6;
+  --color-text-main: #3A3A3A;
+  --trans: rgb(255, 255, 255, 0)
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: var(--color-bg);
+  color: var(--color-text-main);
+}
+
+hr {
+  width: 96%;
+}
+
+a:link {
+  color: #1E9BBC;
+  text-decoration: none;
+  transition: 0.5s;
+}
+a:visited {
+  text-decoration: underline;
+  color: #1E9BBC;
+}
+a:hover {
+  color: #094857;
+  transition: 0.5s;
+}
+
+.main {
+  margin: auto;
+  width: 65%;
+  background: #fff;
+}
+.header {
+  background: #DFE7E6;
+  height: 100px;
+}
+.wiki-name {
+  font-weight: bold;
+  font-size: 30px;
+  position: relative;
+  left: 15px;
+}
+a.wiki-name:link {
+  text-decoration: none;
+  color: #0F191A;
+}
+a.wiki-name:hover {
+  color: #000;
+  transition: 0.25s;
+}
+a.wiki-name:visited {
+  color: #0F191A;
+}
+
+.cat-box {
+  border: 1px solid #C3C6C6;
+  position: relative;
+  margin-left: 23px;
+  font-size: 14px;
+  width: 93%;
+  height: 35px;
+  line-height: 35px;
+}
+
+.article-title {
+  font-weight: bold;
+  position: relative;
+  font-size: 35px;
+  margin-left: 23px;
+}
+.article-content {
+  margin-left: 23px;
+  position: relative;
+  font-size: 17px;
+}
+
+.fa-caret-down:hover {
+  transform: rotate(180deg);
+}
+
+.header-text {
+  position: relative;
+  top: 3px;
+}
+
+.license {
+  position: relative;
+  margin-left: 30px;
+  font-size: 13px;
+}
+
+.page-count .number {
+  position: relative;
+  text-align: right;
+  bottom: 70px;
+  left: 1210px;
+  font-weight: bold;
+  font-size: 27px;
+}
+.page-count .pages {
+  position: relative;
+  text-align: right;
+  bottom: 53px;
+  left: 1152px;
+  font-weight: bolder;
+  font-size: 14px;
+}
+
+/** NAVBAR **/
+.navbar {
+  overflow: hidden;
+  background-color: var(--trans);
+}
+
+.navbar a {
+  float: left;
+  font-size: 13px;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 13px;  
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  font-weight: bold;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: var(--trans);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  z-index: 1;
+  border: 1px solid #C3C6C6;
+  border-radius: 5px;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  transition: 0.5s;
+}
+
+.dropdown-content a:hover {
+  background-color: #DDEBEE;
+  transition: 0.5s;
+  color: #1E9BBC;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
