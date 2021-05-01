@@ -12,6 +12,39 @@ body {
 
 hr {
   width: 96%;
+  color: #C3C6C6;
+}
+
+.cat-count {
+  font-weight: bold;
+}
+.cat-count:before {
+  content: "ALL ITEMS ("
+}
+.cat-count:after {
+  content: ")"
+}
+
+.cat-pages2 {
+  line-height: 50px;
+  position: relative;
+  left: 90px;
+}
+
+.cat-letter {
+  font-size: 25px;
+  font-weight: bold;
+}
+.cat-pages hr {
+  width: 40%;
+  position: relative;
+  right: 365px;
+}
+
+.article-subtitle {
+  font-size: 14px;
+  position: relative;
+  left: 24px;
 }
 
 a:link {
