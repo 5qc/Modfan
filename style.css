@@ -47,16 +47,23 @@ hr {
   left: 24px;
 }
 
-a:link {
+.link-content a:link {
+  text-decoration: none;
+}
+.link-content a:hover {
+  text-decoration: underline;
+}
+
+a:link, .cat-pages2 a:link, .cat-box a:link, .license a:link {
   color: #1E9BBC;
   text-decoration: none;
   transition: 0.5s;
 }
-a:visited {
+a:visited, .cat-pages2 a:visited, .cat-box a:visited, .license a:visited {
   text-decoration: underline;
   color: #1E9BBC;
 }
-a:hover {
+a:hover, .cat-pages2 a:hover, .cat-box a:hover, .license a:hover {
   color: #094857;
   transition: 0.5s;
 }
@@ -80,22 +87,23 @@ a.wiki-name:link {
   text-decoration: none;
   color: #0F191A;
 }
+a.wiki-name:visited {
+  color: #0F191A;
+}
 a.wiki-name:hover {
   color: #000;
   transition: 0.25s;
-}
-a.wiki-name:visited {
-  color: #0F191A;
 }
 
 .cat-box {
   border: 1px solid #C3C6C6;
   position: relative;
   margin-left: 23px;
-  font-size: 14px;
+  font-size: 13px;
   width: 93%;
   height: 35px;
   line-height: 35px;
+  background: #F3F4F4;
 }
 
 .article-title {
@@ -187,6 +195,7 @@ a.wiki-name:visited {
   z-index: 1;
   border: 1px solid #C3C6C6;
   border-radius: 5px;
+  font-weight: 400;
 }
 
 .dropdown-content a {
@@ -197,6 +206,10 @@ a.wiki-name:visited {
   display: block;
   text-align: left;
   transition: 0.5s;
+  width: 70%;
+  position: relative;
+  left: 7px;
+  border-radius: 5px;
 }
 
 .dropdown-content a:hover {
