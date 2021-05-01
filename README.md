@@ -8,4 +8,4 @@ MediaWiki recreation, then visit [GlitchWiki](https://glitchwiki-html.glitch.me)
 
 ## Where do I get Modfan?
 
-No where, you can [remix this on Glitch](https://glitch.com/edit/#!/remix/modfan) however.
+Nowhere, you can download this project on GitHub however.
