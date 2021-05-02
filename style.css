@@ -4,6 +4,21 @@
   --trans: rgb(255, 255, 255, 0)
 }
 
+.infobox {
+  background: #E6F2FF;
+  width: 25%;
+}
+.infobox th {
+  text-align: left;
+  font-weight: 400;
+  font-size: 20px;
+  height: 30px;
+}
+td img {
+  align-items: center;
+  display: flex;
+}
+
 body {
   font-family: "Arial", sans-serif;
   background-color: var(--color-bg);
@@ -116,6 +131,7 @@ a.wiki-name:hover {
   margin-left: 23px;
   position: relative;
   font-size: 17px;
+  width: 96%;
 }
 
 .fa-caret-down:hover {
@@ -137,17 +153,23 @@ a.wiki-name:hover {
   position: relative;
   text-align: right;
   bottom: 70px;
-  left: 1210px;
+  right: 5px;
+  text-align: right;
   font-weight: bold;
   font-size: 27px;
+  width: 50%;
+  left: 612px;
 }
 .page-count .pages {
   position: relative;
   text-align: right;
-  bottom: 53px;
-  left: 1152px;
+  bottom: 73px;
+  right: 5px;
+  text-align: right;
   font-weight: bolder;
   font-size: 14px;
+  width: 50%;
+  left: 612px;
 }
 
 /** NAVBAR **/
