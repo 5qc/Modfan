@@ -6,10 +6,10 @@
 wiki software using the Cosmos skin with [MediaWiki](https://www.mediawiki.org). If you are looking for a raw
 MediaWiki recreation, then visit [GlitchWiki](https://glitchwiki-html.glitch.me).
 
-Modfan was created on April 30, 2021 by [roc0ast3r](https://github.com/roc0ast3r).
+Modfan was created on April 30, 2021 by [5qc](https://github.com/5qc).
 
-![Modfan Main Page as of May 1, 2021](https://raw.githubusercontent.com/roc0ast3r/cdn/main/img/ModfanHomePage.png)
+![Modfan Main Page as of May 1, 2021](https://raw.githubusercontent.com/5qc/cdn/main/img/ModfanHomePage.png)
 
 ## Where do I get Modfan?
 
-Nowhere, you can download this project on GitHub however.
+As of May 5, 2021, you can't get it. This project is meant for my personal use and enjoyment, however I decided to throw it on GitHub so people can judge my sloppy stuff. Since this is the template page, you can view it on GitHub. However, if you were looking for the document section, enjoy [this](https://github.com/5qc/modfan-docs).
